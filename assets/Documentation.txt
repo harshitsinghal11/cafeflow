@@ -1,0 +1,3 @@
+Primary-Color: #653100
+Secondary-Color: #DA944B
+Tertiary-Color: #f8f8f8

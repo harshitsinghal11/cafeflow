@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+/* Force the background color here */
+body {
+  background-color: #f8f8f8;
+  color: #653100; /* Sets your primary brown color for text by default too */
+}
