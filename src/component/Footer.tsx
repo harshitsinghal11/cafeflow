@@ -12,7 +12,7 @@ export default function Footer() {
           {/* 1. BRAND SECTION (Span 4) */}
           <div className="md:col-span-4 space-y-6">
             <div className="flex items-center gap-2 text-[#DA944B]">
-               <span className="text-2xl font-bold tracking-wide text-white">Arabica Coffee</span>
+               <span className="text-2xl font-bold tracking-wide text-white">CafeFlow</span>
             </div>
             <p className="text-gray-400 leading-relaxed text-sm">
               Brewing moments of joy, one cup at a time. Experience the authentic taste of freshly ground beans right here in the heart of Faridabad.
@@ -47,7 +47,7 @@ export default function Footer() {
                   <div className="p-2 bg-white/5 rounded-full group-hover:bg-[#DA944B] group-hover:text-white transition-colors">
                     <MapPin size={16} />
                   </div>
-                  <span className="leading-tight">Sec-03, HUDA MARKET,<br/>Faridabad, Haryana</span>
+                  <span className="leading-tight">Sec-58<br/>Faridabad, Haryana</span>
                 </li>
                 <li className="flex items-center gap-3 group">
                   <div className="p-2 bg-white/5 rounded-full group-hover:bg-[#DA944B] group-hover:text-white transition-colors">
@@ -59,7 +59,7 @@ export default function Footer() {
                    <div className="p-2 bg-white/5 rounded-full group-hover:bg-[#DA944B] group-hover:text-white transition-colors">
                     <Mail size={16} />
                    </div>
-                   <span>hello@arabica.com</span>
+                   <span>hello@cafeflow.com</span>
                 </li>
              </ul>
           </div>
@@ -68,7 +68,7 @@ export default function Footer() {
 
         {/* --- BOTTOM BAR --- */}
         <div className="pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-gray-500 font-medium">
-          <p>© {new Date().getFullYear()} Arabica Coffee. Crafted with ❤️ for Coffee Lovers.</p>
+          <p>© {new Date().getFullYear()} CafeFlow. Crafted with ❤️ for Coffee Lovers.</p>
           <div className="flex gap-6">
             <a href="#" className="hover:text-white transition-colors">Privacy</a>
             <a href="#" className="hover:text-white transition-colors">Cookies</a>

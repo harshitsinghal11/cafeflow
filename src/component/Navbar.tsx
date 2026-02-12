@@ -22,20 +22,9 @@ export default function Navbar() {
       {/* 1. CENTER: Brand Logo & Name */}
       <Link href="/" className="flex items-center gap-3 hover:opacity-90 transition-opacity z-10">
 
-        {/* Left: Brand Logo Image */}
-        <div className="relative w-14 h-14 rounded-full overflow-hidden shadow-sm border-2 border-[#653100]">
-          <Image
-            src="/logo.png"
-            alt="Arabica Logo"
-            fill
-            className="object-cover"
-            priority
-          />
-        </div>
-
         {/* Right: Brand Name */}
         <span className="text-2xl font-bold tracking-wide text-[#653100]">
-          Arabica Coffee
+          CafeFlow
         </span>
       </Link>
 
