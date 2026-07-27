@@ -62,44 +62,6 @@ The project is built as a single Next.js codebase that handles both the customer
 
 ---
 
-## Project Structure
-
-```
-cafeflow/
-├── app/
-│   ├── (auth)/
-│   │   └── login/                      # Admin PIN login page
-│   ├── admin/
-│   │   ├── page.tsx                    # Admin order dashboard
-│   │   └── analytics/                  # Weekly analytics page
-│   └── main/
-│       ├── menu/
-│       │   └── [category]/             # Dynamic Category Route
-│       ├── checkout/                   # Cart review & order placement
-│       └── my-orders/                  # Phone-based order tracking
-├── src/
-│   ├── actions/                        # Server actions (lookup, admin, order)
-│   │   ├── authActions.ts
-│   │   └── orderActions.ts
-│   ├── components/                     # UI components
-│   │   ├── feature/
-│   │   │   ├── admin/                  # Admin-specific components
-│   │   │   └── menu/                   # Menu-specific components
-│   │   ├── layout/                     # Layout components (Navbar, Footer)
-│   │   └── shared/                     # Reusable elements (CartTimer, etc)
-│   ├── hooks/data/                     # SWR data fetching hooks
-│   ├── store/                          # Zustand cart store
-│   ├── types/                          # Shared TypeScript models
-│   └── lib/                            # Utilities and helpers
-├── assets/
-│   └── DATABASE.sql                    # Schema, RLS policies & seed
-├── proxy.ts                            # Admin route protection middleware
-├── .env.example
-└── package.json
-```
-
----
-
 ## Documentation
 
 All project documentation lives in the `/docs` folder (or alongside source files). Each file covers a specific layer of the system:
@@ -211,37 +173,12 @@ CafeFlow is a standard Next.js application and can be deployed to any platform t
 
 ---
 
-## Project Status
+## 🤝 Contributing
 
-| Area | Status |
-|---|---|
-| Customer ordering flow | ✅ Complete |
-| Cart with expiry timer | ✅ Complete |
-| Token-based order confirmation | ✅ Complete |
-| Phone-based order lookup | ✅ Complete |
-| Admin login & session | ✅ Complete |
-| Admin order management | ✅ Complete |
-| Weekly analytics | ✅ Complete |
-| Payment gateway | 🚫 Not planned |
-| Customer accounts | 🚫 Not planned |
-| Multi-branch support | 🚫 Not planned |
-| CI/CD pipeline | 🚫 Not planned |
+Contributions are always welcome!
 
----
-
-## Contributing
-
-This project is built for a single cafe setup. If you'd like to adapt it for your own use:
-
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature/your-feature`
-3. Commit your changes: `git commit -m "feat: add your feature"`
-4. Push to your branch: `git push origin feature/your-feature`
-5. Open a pull request
-
-Please keep pull requests focused on a single change and include a clear description of what was changed and why.
-
----
+If you'd like to improve this project, please read our
+[Contributing Guide](./CONTRIBUTING.md) before submitting a Pull Request.
 
 ## License
 
@@ -249,11 +186,10 @@ This project is open source and available under the [MIT License](./LICENSE).
 
 ---
 
-## Contact
+## Contact Owner
+Built by **Harshit Singhal** | BTech CSE | Manav Rachna University
 
-Built by **Harshit** — B.Tech CSE, Manav Rachna University
-
-- [GitHub](https://github.com/harshitsinghal11)
+- [Portfolio](https://harshit-singhal.vercel.app)
 - [LinkedIn](https://linkedin.com/in/harshitsinghal11)
 
 > _Feel free to reach out if you're building something similar or have questions about the implementation._
